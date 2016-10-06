@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Whoa, Salad!</title>
+	<style>
+		img{
+			width: 100%;
+		}
+		@media screen and (min-width: 800px){
+			.desktop-hide{
+				display: none;
+			}
+			.mobile-hide{
+				display: block;
+			}
+		}
+		@media screen and (max-width: 799px){
+			.desktop-hide{
+				display: block;
+			}
+			.mobile-hide{
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<img class="mobile-hide" src="img/huge/salad-swirl.jpg" alt="Whoa, salad!">
+	<img class="desktop-hide" src="img/small/salad-swirl.jpg" alt="Whoa, salad!">	
+</body>
+</html>
